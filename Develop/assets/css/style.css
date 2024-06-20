@@ -131,7 +131,7 @@ main {
   justify-content: space-between;
 }
 
-.page-section h2 {
+.page-section > h2 {
   flex: 0 0 20%;
   text-align: right;
   padding-right: 15px;
@@ -140,7 +140,7 @@ main {
   line-height: 1.1;
 }
 
-.page-section div {
+.page-section > div {
   flex: 0 0 77%;
 }
 
@@ -153,6 +153,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 
 .flex-item {
   border: 5px solid var(--secondary);
