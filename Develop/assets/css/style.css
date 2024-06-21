@@ -88,9 +88,9 @@ main {
 
 .hero-banner {
   background: rgba(203, 181, 205, 0.224);
-  background-image: url("https://img.freepik.com/free-vector/watercolor-flowers-illustration-background_52683-80606.jpg");
+  background-image: url("https://marketplace.canva.com/EAFZh1d6bzM/1/0/1600w/canva-beige-earth-tone-abstract-leaf-desktop-wallpaper-Xtnwov6targ.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-blend-mode: soft-light;
   min-height: 30vh;
   color: var(--light);
@@ -171,12 +171,17 @@ main {
   background-size: 150%;
   transition: all 0.5s;
   font-size: 0.9rem;
+  background-image: url(https://ih1.redbubble.net/image.1960173051.6809/aps,504x498,large,transparent-pad,600x600,f8f8f8.jpg);
+  background-size: contain;
 }
 
 /* feature first portfolio item */
 .flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/005/423/773/non_2x/home-plant-boho-colors-nand-drawn-cartoon-design-vector.jpg);
+    background-size: 28%;
+    background-position: left;
 }
 
 .flex-item:hover {
@@ -206,7 +211,7 @@ main {
   text-decoration: none;
   font-size: 1.3rem;
   font-style: normal;
-  background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
+  background-image: url(https://i.ytimg.com/vi/liB5kpnzwTA/maxresdefault.jpg) linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: bottom;
@@ -220,11 +225,18 @@ main {
   color: var(--secondary);
 }
 
+
 /* portfolio project images */
 /* TODO: Add portfolio project images here*/
 
 /* media queries */
 
 /* TODO: add media query for a max-width of 980px */
+@media screen and (max-width: 980px) {
+  #main {margin: auto;}
+}
 
 /* TODO: add media query for a max-width of 768px */
+@media screen and (max-width: 768px) {
+  #main {margin: auto;}
+}
